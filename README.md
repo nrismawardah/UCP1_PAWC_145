@@ -8,4 +8,7 @@ Database phpMyAdmin
 ![Screenshot (574)](https://github.com/user-attachments/assets/54c7d29d-ce9e-4782-8761-e39341a035a5)
 
 Website
-![Screenshot (573)](https://github.com/user-attachments/assets/f75f98a1-108a-449f-a89b-e49facf7ab35)
+VIEW ![Screenshot (573)](https://github.com/user-attachments/assets/f75f98a1-108a-449f-a89b-e49facf7ab35)
+ADD ![Screenshot (575)](https://github.com/user-attachments/assets/cc4074c4-1985-4fe0-84c3-3ce9a062aaba)
+EDIT ![Screenshot (576)](https://github.com/user-attachments/assets/181cf3dd-3d01-4488-a622-abec3766db7a)
+DELETE ![image](https://github.com/user-attachments/assets/20ce1f40-5ba0-44ca-9616-195dd9c2be1a)
