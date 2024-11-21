@@ -1,0 +1,16 @@
+<h2 style="text-align: center;">Edit Hewan</h2>
+<form action="/edit/<%= hewan.id %>" method="POST" style="display: flex; flex-direction: column; gap: 10px; width: 300px; margin: 0 auto; text-align: center;">
+  <div>
+    <label for="nama">Nama:</label>
+    <input type="text" name="nama" id="nama" value="<%= hewan.nama %>" required>
+  </div>
+  <div>
+    <label for="jenis">Jenis:</label>
+    <input type="text" name="jenis" id="jenis" value="<%= hewan.jenis %>" required>
+  </div>
+  <div>
+    <label for="umur">Umur:</label>
+    <input type="number" name="umur" id="umur" value="<%= hewan.umur %>" required>
+  </div>
+  <button type="submit" style="padding: 10px; background-color: #f1e49a; color: rgb(0, 0, 0); border: none; cursor: pointer; text-align: center;">Simpan</button>
+</form>

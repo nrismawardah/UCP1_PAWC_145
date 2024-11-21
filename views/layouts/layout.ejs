@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kebun Binatang</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+    header {
+      background-color: #f4ebb5;
+      color: #000000;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #f4ebb5;
+      color: #000000;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Style untuk tabel hewan */
+    table.hewan-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table.hewan-table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Zezoo!</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/add">Tambah Hewan</a>
+    </nav>
+  </header>
+  <main>
+    <%- body %> <!-- Tempat halaman dinamis dirender -->
+  </main>
+  <footer>
+    &copy; 2024 Zezoo - Semua Hak Dilindungi
+  </footer>
+</body>
+</html>
